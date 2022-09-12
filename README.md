@@ -2,19 +2,25 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+## Install pnpm
+
+If you don't have pnpm yet, install it via brew (on Mac).
+
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
 # pnpm
 pnpm install --shamefully-hoist
+```
+
+## Add
+
+Add new packages with this command:
+
+```bash
+pnpm add <npm-package-name>
 ```
 
 ## Development Server
@@ -22,7 +28,11 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+sh run.sh
+
+// or
+
+pnpm run dev
 ```
 
 ## Production
@@ -30,13 +40,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
