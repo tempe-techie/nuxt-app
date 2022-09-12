@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       target: "es2020"
     },
     define: {
-      "global": {},
+      //"global": {},
       //"window": {},
     },
     optimizeDeps: {
@@ -16,10 +16,9 @@ export default defineNuxtConfig({
         supported: { 
           bigint: true 
         },
-        /*
         define: {
           global: 'globalThis'
-        }*/
+        }
       }
     }
   }
