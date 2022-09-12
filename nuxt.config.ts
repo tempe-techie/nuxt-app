@@ -4,6 +4,9 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   vite: {
     // Config for Vite
+    build: {
+      target: "es2020"
+    },
     optimizeDeps: {
       esbuildOptions: {
         supported: { 
