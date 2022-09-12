@@ -7,6 +7,9 @@ export default defineNuxtConfig({
     build: {
       target: "es2020"
     },
+    define: {
+      "global": {},
+    },
     optimizeDeps: {
       esbuildOptions: {
         supported: { 
