@@ -2,10 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@orbisclub/orbis-sdk': ^0.3.30
+  events: npm:eventemitter3@^4.0.7
   nuxt: 3.0.0-rc.9
 
 dependencies:
   '@orbisclub/orbis-sdk': 0.3.30
+  events: /eventemitter3/4.0.7
 
 devDependencies:
   nuxt: 3.0.0-rc.9
