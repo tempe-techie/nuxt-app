@@ -23,6 +23,12 @@ Add new packages with this command:
 pnpm add <npm-package-name>
 ```
 
+## Generate package-lock.json
+
+```bash
+npm i --package-lock-only
+```
+
 ## Development Server
 
 Start the development server on http://localhost:3000
